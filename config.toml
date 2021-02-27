@@ -39,27 +39,39 @@ copyright = "&copy;2021 Jahnsen Louie Agajona"
       # youtubeId = "dk9uNWPP7EA"
 
   # Links
-  #
-# Links List #1
+  # 
+  
+  # Links List #1
+[[params.links]]
+  [params.links.list1]
+    heading = "Connect"
+
+    [[params.links.list1.link]]
+      text = "Profile"
+      url = "jahnsenagajona.netlify.app"
+
+    [[params.links.list1.link]]
+      text = "Email"
+      url = "agajonajahnsen@gmail.com"
+
+    [[params.links.list1.link]]
+      text = "Newsletter"
+      url = "#"
+  
+  
+  # Links List #2
   [[params.links]]
-    [params.links.list3]
+    [params.links.list2]
       heading = "Social"
 
-      [[params.links.list3.link]]
+      [[params.links.list2.link]]
         text = "Facebook"
         url = "https://facebook.com/ESPionage2020"
 
-      [[params.links.list3.link]]
+      [[params.links.list2.link]]
         text = "Twitter"
         url = "https://twitter.com/p9SsiBle"
 
-      [[params.links.list3.link]]
+      [[params.links.list2.link]]
         text = "LinkedIn"
         url = "https://www.linkedin.com/in/jahnsen-a-918a85203"
-
-
-
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
