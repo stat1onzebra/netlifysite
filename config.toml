@@ -52,11 +52,7 @@ copyright = "&copy;2021 Jahnsen Louie Agajona"
 
     [[params.links.list1.link]]
       text = "Email"
-      url = "mailto:agajonajahnsen@gmail.com"
-
-    [[params.links.list1.link]]
-      text = "Newsletter"
-      url = "#"
+      url = "mailto:agajonajahnsen@gmail.com'
   
   
   # Links List #2
