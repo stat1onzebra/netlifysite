@@ -1,0 +1,65 @@
+# Site settings
+baseURL = ""
+languageCode = "en-US"
+title = "Jahnsen Louie C. Agajona"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2021 Jahnsen Louie Agajona"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Jahnsen Agajona"
+  description = "This is a simple static website"
+  shareImage = "images/social.jpg"
+  twitterHandle = "stat1onzebra"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/pic2edit.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+# Links List #1
+  [[params.links]]
+    [params.links.list3]
+      heading = "Social"
+
+      [[params.links.list3.link]]
+        text = "Facebook"
+        url = "https://facebook.com/ESPionage2020"
+
+      [[params.links.list3.link]]
+        text = "Twitter"
+        url = "https://twitter.com/p9SsiBle"
+
+      [[params.links.list3.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/jahnsen-a-918a85203"
+
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
