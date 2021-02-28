@@ -47,7 +47,7 @@ copyright = "&copy;2021 Jahnsen Louie Agajona"
     heading = "Connect"
 
     [[params.links.list1.link]]
-      text = "Profile"
+      text = "Website"
       url = "https://jahnsenagajona.netlify.app"
 
     [[params.links.list1.link]]
