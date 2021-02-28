@@ -28,7 +28,7 @@ copyright = "&copy;2021 Jahnsen Louie Agajona"
     # Image
     [params.visual.image]
       enable = true
-      file = "images/pic2edit.jpg"
+      file = "images/avatar.jpg"
       position = "center center"
 
     # Video
